@@ -58,3 +58,13 @@ This project is actively being developed.
 NDLOVU-13
 
 GitHub: https://github.com/NDLOVU-13
+
+## Application Screenshots
+
+### Dashboard
+
+![Safety Management Platform Dashboard](screenshots/dashboard.png)
+
+### Incident Details
+
+![Incident Details](screenshots/incident-details.png)
