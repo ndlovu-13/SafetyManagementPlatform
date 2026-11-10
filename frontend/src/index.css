@@ -1,0 +1,89 @@
+
+/* ==========================================
+   SAFETY MANAGEMENT PLATFORM
+   Global Styles and Design System
+   ========================================== */
+
+/* 1. Define the platform's main colours and fonts. */
+:root {
+  --primary: #142d4e;
+  --primary-light: #1e426b;
+  --accent: #219653;
+
+  --background: #f4f6f9;
+  --surface: #ffffff;
+
+  --text: #263445;
+  --text-muted: #718096;
+
+  --border: #e2e8f0;
+
+  --danger: #dc3545;
+  --warning: #e9a23b;
+  --success: #219653;
+
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--text);
+  background: var(--background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 2. Apply consistent sizing to all elements. */
+* {
+  box-sizing: border-box;
+}
+
+/* 3. Remove the browser's default page spacing. */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* 4. Allow React to occupy the full browser window. */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* 5. Use consistent typography. */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+/* 6. Make links inherit the platform's styling. */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 7. Improve keyboard navigation visibility. */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* 8. Responsive layout for smaller screens. */
+@media (max-width: 768px) {
+  body {
+    min-width: 320px;
+  }
+}
